@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --text-color: #f2f2f2;
+    --background-color: #191a1c;
+    --card-color: #0b0c0d;
+    --place-color: #2c2d2e; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
