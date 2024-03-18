@@ -52,30 +52,39 @@ export default function ContactFormCard() {
   };
 
   return (
-    <div className='card-container' id='contact-form-card'>
+    <div className='contact-form-card' id='card-container'>
       <div className='card-contents'>
           {successMessage ? (
             <h2 className="success-message">{successMessage}</h2>
           ) : errorMessage ? (
             <h2 className="error-message">{errorMessage}</h2>
           ) : (
-            <h2 className="contact-us-heading">CONTACT US</h2>
+            <h2 className="contact-heading">Contact Dr Thomas</h2>
           )}
-          <form onSubmit={handleSubmit}>
+          <form className='form-container'onSubmit={handleSubmit}>
+          <label htmlFor="email">Full name*</label>
+            <input
+              type="email"
+              // placeholder="Your full name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
             <label htmlFor="email">Email*</label>
             <input
               type="email"
-              placeholder="Your email"
+              // placeholder="Your email"
               name="email"
               value={formData.email}
               onChange={handleChange}
               required
             />
 
-            <label htmlFor="phone">Phone</label>
+            <label htmlFor="phone">Phone (optional)</label>
             <input
               type="tel"
-              placeholder="Your contact number"
+              // placeholder="Your contact number"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
@@ -83,7 +92,7 @@ export default function ContactFormCard() {
 
             <label htmlFor="subject">Subject* </label>
             <textarea
-              placeholder="Your message"
+              // placeholder="Your message"
               name="subject"
               value={formData.subject}
               onChange={handleChange}

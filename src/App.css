@@ -4,12 +4,85 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto Serif", serif;
+  background-color: var(--background-color);
 }
 
 :root {
-    --text-color: #f2f2f2;
-    --background-color: #191a1c;
-    --card-color: #0b0c0d;
-    --place-color: #2c2d2e; 
+    --text-color: #1E4B4B;
+    --background-color: #EAEDED;
 }
 
+/* Contact form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+input, textarea {
+  padding: 1em;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  border: 2px solid transparent;
+}
+
+input:hover, textarea:hover {
+  border: 2px solid var(--text-color);
+}
+
+.contact-heading {
+  margin-left: 0.6em;
+}
+
+label {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 1em;
+  
+}
+
+.submit-btn {
+  display: flex;
+  width: auto;
+  background-color: #d9d9d9;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+  box-shadow: none;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.submit-btn:hover {
+  border: none;
+  background-color: #617a6a;
+  color: var(--background-color);
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #d9d9d9 inset;
+  -webkit-text-fill-color: var(--text-color);
+}
+
+
+@media (min-width: 1000px) {
+  .contact-form-card {
+    display: flex;
+    justify-content: center;
+  }
+  form {
+    width: 500px;
+  }
+}
