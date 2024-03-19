@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import ContactIcon from '../Assets/ContactIcon';
+
 
 export default function ContactFormCard() {
   const [formData, setFormData] = useState({
@@ -53,6 +55,7 @@ export default function ContactFormCard() {
 
   return (
     <div className='contact-form-card' id='card-container'>
+      <ContactIcon />
       <div className='card-contents'>
           {successMessage ? (
             <h2 className="success-message">{successMessage}</h2>
@@ -62,6 +65,7 @@ export default function ContactFormCard() {
             <h2 className="contact-heading">Contact Dr Thomas</h2>
           )}
           <form className='form-container'onSubmit={handleSubmit}>
+          
           <label htmlFor="email">Full name*</label>
             <input
               type="email"
