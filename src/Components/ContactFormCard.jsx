@@ -31,7 +31,7 @@ export default function ContactFormCard() {
   
       if (response.ok) {
         // Email sent successfully
-        setSuccessMessage('Thank you for contacting us!');
+        setSuccessMessage('Thank you for contacting me. You will receive a response as soon as possible.');
         setErrorMessage(''); // Clear any previous error messages
 
         // Clear the form data on successful submission
@@ -65,9 +65,8 @@ export default function ContactFormCard() {
           )}
           <form className='form-container'onSubmit={handleSubmit}>
           
-          <label htmlFor="email">Full name*</label>
+          <label >Full name*</label>
             <input
-              type="email"
               // placeholder="Your full name"
               name="name"
               value={formData.name}

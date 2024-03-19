@@ -38,6 +38,11 @@ header {
   background-color: var(--accent-color);
 }
 
+.success-message, .error-message {
+  margin-left: 1.3em;
+}
+
+
 .banner {
   position: relative; 
   background-color: var(--accent-color);
