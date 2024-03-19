@@ -5,11 +5,62 @@
   box-sizing: border-box;
   font-family: "Roboto Serif", serif;
   background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
 }
 
 :root {
     --text-color: #1E4B4B;
     --background-color: #EAEDED;
+}
+
+header {
+  position: relative;
+  height: 500px;
+  background-color: #517867;
+}
+
+.banner {
+  position: relative; 
+  background-color: #517867;
+  width: 100%; 
+  height: 500px; 
+  opacity: 0.2;
+  background-image: url('./Assets/Banner-mobile.png'); 
+  background-size: cover; 
+}
+
+.andrew-thomas-text {
+  position: absolute;
+  top: 0;
+  background: none;
+  color: #EAEDED;
+  font-size: 1.2em;
+  padding: 2em 1em 1em 1.3em;
+  z-index: 10;
+}
+
+.intro-text {
+  position: absolute;
+  top: 0;
+  margin-top: 2em;
+  background: none;
+  color: #EAEDED;
+  font-size: 1.6em;
+  font-weight: 600;
+  padding: 1em;
+  z-index: 10;
+}
+
+.headshot {
+  position: relative;
+  background: none;
+  display: block;
+  margin: auto;
+  margin-top: -18em;
+  margin-bottom: 2em;
+  z-index: 10;
+  width: 250px;
 }
 
 /* Contact form */
@@ -36,7 +87,7 @@ input:hover, textarea:hover {
 }
 
 .contact-heading {
-  margin-left: 0.6em;
+  margin: 2em 0em 0em 0.6em;
 }
 
 label {
@@ -85,13 +136,41 @@ input:-webkit-autofill {
   margin-left: -15.5em; 
 }
 
-@media (max-width: 1000px) {
+
+
+@media (max-width: 1100px) {
 .contact-icon {
   display: none;
   }
 }
 
-@media (min-width: 1000px) {
+
+
+@media (min-width: 670px) {
+  .headshot {
+    margin-left: 4em;
+    margin-top: -23em;
+  }
+
+  .intro-text {
+    margin-top: 5em;
+    margin-left: 12em;
+  }
+}
+@media (min-width: 684px) {
+  .intro-text {
+    margin-top: 6em;
+    margin-left: 12em;
+  }
+}
+@media (min-width: 907px) {
+  .intro-text {
+    margin-right: 15vw;
+  }
+}
+
+@media (min-width: 1100px) {
+
   .contact-form-card {
     display: flex;
     justify-content: center;
@@ -99,5 +178,62 @@ input:-webkit-autofill {
   form {
     width: 500px;
   }
- 
+
+  .banner {
+    background-image: url('./Assets/Banner.png'); 
+  }
+  .intro-text {
+    margin-top: 7em;
+  }
+}
+
+@media (min-width: 1150px) {
+  .intro-text {
+    font-size: 2em;
+    margin-top: 6em;
+    margin-left: 16em;
+  }
+
+  .headshot {
+    width: 350px;
+    margin-left: 8em;
+    margin-top: -28em;
+  }
+
+  header, .banner {
+    height: 600px;
+  }
+}
+
+  @media (min-width: 1919px) {
+  .intro-text {
+    font-size: 3em;
+    margin-top: 4em;
+    margin-left: 30vw;
+    margin-right: 22vw;
+  }
+  .headshot {
+    margin-left: 16em;
+   
+  }
+}
+
+
+
+@media (max-width: 440px) {
+  header, .banner {
+    height: 550px;
+  }
+}
+
+@media (max-width: 376px) {
+  header, .banner {
+    height: 600px;
+  }
+}
+
+@media (max-width: 318px) {
+  header, .banner {
+    height: 650px;
+  }
 }
