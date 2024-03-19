@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContactIcon from '../Assets/ContactIcon';
+
 
 
 export default function ContactFormCard() {
@@ -55,14 +55,13 @@ export default function ContactFormCard() {
 
   return (
     <div className='contact-form-card' id='card-container'>
-      <ContactIcon />
       <div className='card-contents'>
           {successMessage ? (
             <h2 className="success-message">{successMessage}</h2>
           ) : errorMessage ? (
             <h2 className="error-message">{errorMessage}</h2>
           ) : (
-            <h2 className="contact-heading">Contact Dr Thomas</h2>
+            <h2 className="contact-heading">Contact Andrew</h2>
           )}
           <form className='form-container'onSubmit={handleSubmit}>
           
