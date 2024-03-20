@@ -108,11 +108,10 @@ function App() {
           <a className='articles' href="https://doi.org/10.1111/mepo.12030" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article5} alt="Article 5" /></a>
           <br></br>
           <br></br>
-          <br></br>
-          <br></br>
+          
           <h3>Media Appearances</h3> 
           <br></br>
-          <br></br>
+          
           <em>Andrew Thomas - Iran and the West: A Non-Western Approach to Foreign Policy.</em> Iran1400: Spotlighting an Author Series, March 2024, Streamed over Zoom.
           <br></br>
           <br></br>
