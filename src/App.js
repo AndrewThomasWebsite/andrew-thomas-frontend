@@ -1,16 +1,10 @@
 import './App.css';
 import ContactFormCard from './Components/ContactFormCard';
-import MediaCard from './Components/MediaCard1';
 import Headshot from './Assets/Headshot.png'
 import AboutIcon from './Assets/AboutIcon';
 import BookIcon from './Assets/BookIcon';
 import ContactIcon from './Assets/ContactIcon';
 import MediaIcon from './Assets/MediaIcon';
-import Article1 from './Assets/Article1.png'
-import Article2 from './Assets/Article2.png'
-import Article3 from './Assets/Article3.png'
-import Article4 from './Assets/Article4.png'
-import Article5 from './Assets/Article5.png'
 import MediaCard1 from './Components/MediaCard1';
 import MediaCard2 from './Components/MediaCard2';
 import MediaCard3 from './Components/MediaCard3';
