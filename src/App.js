@@ -79,7 +79,7 @@ function App() {
           <br></br>
           <br></br>
           {/* Article 2 */}
-          <a className='articles' href="https://theconversation.com/israel-hamas-war-what-is-zionism-a-history-of-the-political-movement-that-created-israel-as-we-know-it-217788" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2024, “Israel-Hamas war: What is Zionism? A history of the political movement that created Israel as we know it.” <em>The Conversation,</em> 11 December, 2024.</a>
+          <a className='articles' href="https://theconversation.com/israel-hamas-war-what-is-zionism-a-history-of-the-political-movement-that-created-israel-as-we-know-it-217788" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2024, “Israel-Hamas war: What is Zionism? A history of the political movement that created Israel as we know it.” <em>The Conversation,</em> 11 December, 2023.</a>
           <br></br>
           <br></br>
           <a className='articles' href="https://theconversation.com/israel-hamas-war-what-is-zionism-a-history-of-the-political-movement-that-created-israel-as-we-know-it-217788" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article2} alt="Article 2" /></a>
