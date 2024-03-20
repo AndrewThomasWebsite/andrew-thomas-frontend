@@ -17,7 +17,7 @@ function App() {
           Dr Andrew Thomas
         </p>
         <h3 className='intro-text'>
-          Scholar in Middle East Studies and International Relations. Lecturer at Deakin University. Add more text here
+          Scholar in Middle East Studies and International Relations. <br></br>Lecturer at Deakin University.
         </h3>
         <img className='headshot' src={Headshot} alt="Andrew Thomas Headshot" />
       </header> 
@@ -43,7 +43,7 @@ function App() {
         </p>
         <br></br>
         <p>
-          The book was published in 2024 with Routledge and is available in both hardcover and e-book formats.
+          The book was published by Routledge in 2024 and is available in both hardcover and e-book formats.
         </p>
         <br></br>
         <div className='buy-container'>

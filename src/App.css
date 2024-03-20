@@ -34,7 +34,7 @@ h2 {
 
 header {
   position: relative;
-  height: 600px;
+  height: 580px;
   background-color: var(--accent-color);
 }
 
@@ -236,7 +236,7 @@ input:-webkit-autofill {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 376px) {
   header {
     height: 550px;
   }
