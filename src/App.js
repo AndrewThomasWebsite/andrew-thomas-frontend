@@ -1,5 +1,6 @@
 import './App.css';
 import ContactFormCard from './Components/ContactFormCard';
+import MediaCard from './Components/MediaCard1';
 import Headshot from './Assets/Headshot.png'
 import AboutIcon from './Assets/AboutIcon';
 import BookIcon from './Assets/BookIcon';
@@ -10,6 +11,11 @@ import Article2 from './Assets/Article2.png'
 import Article3 from './Assets/Article3.png'
 import Article4 from './Assets/Article4.png'
 import Article5 from './Assets/Article5.png'
+import MediaCard1 from './Components/MediaCard1';
+import MediaCard2 from './Components/MediaCard2';
+import MediaCard3 from './Components/MediaCard3';
+import MediaCard4 from './Components/MediaCard4';
+import MediaCard5 from './Components/MediaCard5';
 
 
 function App() {
@@ -72,42 +78,15 @@ function App() {
           <h3>Articles</h3>  
           <br></br>
           {/* Article 1 */}
-          <a className='articles' href="https://theconversation.com/explainer-what-is-the-two-state-solution-to-the-israeli-palestinian-conflict-221872" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2024, “Explainer: what is the two-state solution to the Israeli-Palestinian conflict?” <em>The Conversation,</em> 7 February 2024.</a>
-          <br></br>
-          <br></br>
-          <a className='articles' href="https://theconversation.com/explainer-what-is-the-two-state-solution-to-the-israeli-palestinian-conflict-221872" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article1} alt="Article 1" /></a>
-          <br></br>
-          <br></br>
+          <MediaCard1 />
           {/* Article 2 */}
-          <a className='articles' href="https://theconversation.com/israel-hamas-war-what-is-zionism-a-history-of-the-political-movement-that-created-israel-as-we-know-it-217788" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2024, “Israel-Hamas war: What is Zionism? A history of the political movement that created Israel as we know it.” <em>The Conversation,</em> 11 December, 2023.</a>
-          <br></br>
-          <br></br>
-          <a className='articles' href="https://theconversation.com/israel-hamas-war-what-is-zionism-a-history-of-the-political-movement-that-created-israel-as-we-know-it-217788" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article2} alt="Article 2" /></a>
-          <br></br>
-          <br></br>
+          <MediaCard2 />
           {/* Article 3 */}
-          <a className='articles' href="https://theconversation.com/understanding-the-history-of-the-israeli-palestinian-conflict-in-5-charts-216165" target="_blank" rel="noopener noreferrer"><b>*Nominated for a 2024 MPC Quill Award*</b>
-          <br></br>
-          Garrow, Matt and Andrew Thomas, “Understanding the history of the Israeli-Palestinian conflict in 5 charts.” <em>The Conversation,</em> 25 October 2023.</a>
-          <br></br>
-          <br></br>
-          <a className='articles' href="https://theconversation.com/understanding-the-history-of-the-israeli-palestinian-conflict-in-5-charts-216165" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article3} alt="Article 3" /></a>
-          <br></br>
-          <br></br>
+          <MediaCard3 />
           {/* Article 4 */}
-          <a className='articles' href="https://theconversation.com/a-crisis-of-legitimacy-whats-at-stake-for-israel-and-the-palestinians-215341" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2023, “A crisis of legitimacy: what’s at stake for Israel and the Palestinians?” <em>The Conversation,</em> 12 October 2023.</a>
-          <br></br>
-          <br></br>
-          <a className='articles' href="https://theconversation.com/a-crisis-of-legitimacy-whats-at-stake-for-israel-and-the-palestinians-215341" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article4} alt="Article 4" /></a>
-          <br></br>
-          <br></br>
+          <MediaCard4 />
           {/* Article 5 */}
-          <a className='articles' href="https://doi.org/10.1111/mepo.12030" target="_blank" rel="noopener noreferrer">Thomas, Andrew 2013, ‘"Pariah States" and sanctions: the case of Syria,’ Middle East Policy 20 no. 3, pp. 27-40.</a>
-          <br></br>
-          <br></br>
-          <a className='articles' href="https://doi.org/10.1111/mepo.12030" target="_blank" rel="noopener noreferrer"><img className='articlesimg' src={Article5} alt="Article 5" /></a>
-          <br></br>
-          <br></br>
+          <MediaCard5 />
           
           <h3>Media Appearances</h3> 
           <br></br>
