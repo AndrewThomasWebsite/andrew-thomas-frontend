@@ -1,4 +1,5 @@
 import './App.css';
+import TwitterIcon from './Assets/TwitterIcon'
 import ContactFormCard from './Components/ContactFormCard';
 import Headshot from './Assets/Headshot.png'
 import AboutIcon from './Assets/AboutIcon';
@@ -16,6 +17,8 @@ function App() {
   return (
     <div>
       <header>
+      <a href="https://twitter.com/athomas_ir" target="_blank" rel="noopener noreferrer"><TwitterIcon/></a>
+        
         <div 
           className='banner'>
         </div>
