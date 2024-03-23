@@ -1,6 +1,6 @@
 import React from 'react';
 import Article5 from '../Assets/Article5.png'
-import ArticleHeadshot from '../Assets/Article-headshot.png'
+import ArticleWriter from './ArticleWriter';
 
 export default function MediaCard5() {
   
@@ -14,12 +14,7 @@ export default function MediaCard5() {
         17 September, 2013.
         </p>
         <a className='articles' href="https://doi.org/10.1111/mepo.12030" target="_blank" rel="noopener noreferrer"><img className='articlesimgs' src={Article5} alt="Article 5" /></a>
-        <img className='article-headshot' src={ArticleHeadshot} alt="article-headshot" />
-        
-          <b className='headshot-name'>Dr Andrew Thomas</b>
-          <br></br>
-          <p className='headshot-title'>Lecturer in Middle East Studies, Deakin University</p>
-        
+        <ArticleWriter/>
       </div>
     </div>
   );

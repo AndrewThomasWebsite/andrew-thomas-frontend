@@ -1,6 +1,6 @@
 import React from 'react';
 import Article1 from '../Assets/Article1.png'
-import ArticleHeadshot from '../Assets/Article-headshot.png'
+import ArticleWriter from './ArticleWriter';
 
 export default function MediaCard1() {
   
@@ -14,12 +14,7 @@ export default function MediaCard1() {
         <em className=''>The Conversation, </em>7 February 2024.
         </p>
         <a className='articles' href="https://theconversation.com/explainer-what-is-the-two-state-solution-to-the-israeli-palestinian-conflict-221872" target="_blank" rel="noopener noreferrer"><img className='articlesimgs' src={Article1} alt="Article 1" /></a>
-        <img className='article-headshot' src={ArticleHeadshot} alt="article-headshot" />
-        
-          <b className='headshot-name'>Dr Andrew Thomas</b>
-          <br></br>
-          <p className='headshot-title'>Lecturer in Middle East Studies, Deakin University</p>
-        
+        <ArticleWriter/>
       </div>
     </div>
   );
