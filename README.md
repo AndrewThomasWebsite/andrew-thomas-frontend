@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Dr Andrew Thomas Portfolio Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Client's Background:
+Dr Andrew Thomas is a scholar in Middle East Studies/International Relations and a
+lecturer at Deakin University. He has published his book “Iran and the West: a non-Western approach to foreign policy” which is to be launched in April, 2024.
 
-## Available Scripts
+## Purpose:
+The purpose of this product is to showcase Dr Thomas’ book and academic accomplishments. He requires a website which contains information about who he is/what he does, displays information about his book and how to purchase it, and to showcase the academic articles he has written and a method of contacting him.
 
-In the project directory, you can run:
+## Functionality / Features:
+This website consists of a single page with no need to click a navigation bar to see different pages of the website. A user who has navigated to this website is greeted with an image of Dr Thomas and some introduction text regarding his field and profession. Upon scrolling down the user will see information about his published book and a link to navigate to an external site where the book is being sold. After this section, the user will see a list of each article published by Dr Thomas where each item will navigate directly to the URL of said article. The last section of the website contains a contact form. Upon filling out the form and clicking submit, Dr Thomas will receive an email containing the information for each field of the form. The form has 4x fields: 
 
-### `npm start`
+- Full name
+- Email
+- Phone(optional)
+- The message the user wishes to send.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Target Audience:
+Dr Andrew Thomas is active in the media, appearing in multiple international television news interviews as an expert on the conflict between Israel and Palestine. He is also an educator and writer. Therefore, the audience that this website is targeting are his peers in International Relations, other academics in the field and people who are active in the media industry. This website needs to present all of the required information in a concise and professional manner which is appropriate for this target audience. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories:
 
-### `npm test`
+1. As a visitor interested in Dr. Andrew Thomas' academic work, I want to quickly understand who he is and what his areas of expertise are, so I can determine if his work aligns with my interests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. As a potential reader of Dr. Thomas' book, I want to easily find information about his published work and how to purchase it, so I can explore further and potentially make a purchase.
 
-### `npm run build`
+3. As a peer or fellow academic in the field of International Relations, I want to access a comprehensive list of Dr. Thomas' published articles, each with direct links, so I can reference his work for my research or academic purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. As a member of the media industry looking for expert commentary, I want to be able to contact Dr. Thomas easily through a contact form, so I can inquire about potential interviews or collaborations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. As a student or aspiring academic interested in Dr. Thomas' field of study, I want to learn more about his background, education, and professional experiences, so I can gain insights into his journey and possibly seek guidance for my own career path.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Wireframes for mobile and desktop:
 
-### `npm run eject`
+### Version 1:
+This wireframe displays the website to be a single page. It starts with an image of the client and introductory text. Below this section, there are three separate sections for About, Publications and Other Publications. The last section is dedicated to the contact form.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![alt text](<src/Assets/Wireframes V1.png>)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Version 2:
+This wireframe shows the removal of the “Other Publications” section and is replaced with another section called “Articles and Media”. After a meeting with the client, Dr Thomas advised that he would like a section of the website with each article that he has written, as well as a Youtube video where he is presenting his book to a Zoom call.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![alt text](<src/Assets/Wireframes V2.png>)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Designs:
 
-## Learn More
+### Version 1:
+The design of this website is quite simple and professional. It conveys the information required without being cluttered and it is suitable for both mobile and desktop. The header shows the introductory text with an image of the client and has a green background to separate the header from the body.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![alt text](<src/Assets/Design V1.png>)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Version 2:
+This version adds the Articles and Media section as mentioned in above. This section has been designed so that each article has the look of a social media post, showing clear differentiation between each article. This version also updates the text colour from dark green to black for improved readability.
 
-### Code Splitting
+![alt text](<src/Assets/Design V2.png>)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 
 
-### Analyzing the Bundle Size
+## Tech Stack & Application Architecture Diagram:
+The website will utilise a modern tech stack to deliver a seamless and responsive user experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Front-end: React.js
+<br>
+Back-end: Node.js, Express.js
+<br>
+Hosting: Netlify (frontend), render.com (backend), Ventraip (domain name)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](<src/Assets/Architecture diagram.png>)
