@@ -15,6 +15,10 @@
     --accent-color: #4e7864;
 }
 
+a {
+  text-decoration: none;
+}
+
 form,
 input,
 textarea,
@@ -123,7 +127,6 @@ header {
   padding: 1em;
   border-radius: 4px;
   margin-top: 10em;
-  text-decoration: none;
   color: var(--text-color);
   font-weight: 600;
 }
@@ -317,7 +320,6 @@ em {background: none;}
   margin-top: -4.4em;
   margin-left: 5em;
   background: none;
-  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -328,7 +330,6 @@ em {background: none;}
   padding-bottom: 1em;
   padding-right: 2em;
   background: none;
-  text-decoration: none;
 }
 
 .articlesimgs:hover {
