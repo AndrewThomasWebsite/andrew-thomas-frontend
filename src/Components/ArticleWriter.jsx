@@ -2,7 +2,6 @@ import React from 'react';
 import ArticleHeadshot from '../Assets/Article-headshot.png'
 
 export default function ArticleWriter() {
-  
 
   return (
     <div className='media-card-container'>

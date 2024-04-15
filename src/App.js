@@ -11,6 +11,8 @@ import MediaCard2 from './Components/MediaCard2';
 import MediaCard3 from './Components/MediaCard3';
 import MediaCard4 from './Components/MediaCard4';
 import MediaCard5 from './Components/MediaCard5';
+import MediaCard6 from './Components/MediaCard6';
+import CameraIcon from './Assets/CameraIcon';
 
 
 function App() {
@@ -84,14 +86,21 @@ function App() {
           <MediaCard4 />
           {/* Article 5 */}
           <MediaCard5 />
-          
+          <CameraIcon />
           <h3>Media Appearances</h3> 
           <br></br>
-          
+          <br></br>
+          <MediaCard6 />
           <em>Andrew Thomas - Iran and the West: A Non-Western Approach to Foreign Policy.</em> Iran1400: Spotlighting an Author Series, March 2024, Streamed over Zoom.
           <br></br>
           <br></br>
-          <iframe className='youtube-vid' src="https://www.youtube.com/embed/oU5aaYNzBuA?si=nHReFh-HkekmIBeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe className='youtube-vid' src="https://www.youtube.com/embed/oU5aaYNzBuA?si=nHReFh-HkekmIBeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <br></br>
+          <br></br>
+          Book Launch at the Middle East Studies Forum, April 2024
+          <br></br>
+          <br></br>
+          <iframe className='youtube-vid' src="https://www.youtube.com/embed/8hCyEeNjI6c?si=CeQKvKWSONZ1i-H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <br></br>
           <br></br>
           News Bulletins:

@@ -244,7 +244,7 @@ input:-webkit-autofill {
   margin: 2.4em 0em 2em 1.55em;
 }
 
-.about-icon, .book-icon, .media-icon{
+.about-icon, .book-icon, .media-icon, .camera-icon{
   fill: var(--grey-color);
   display: flex;
   margin-right: 6em;
@@ -265,6 +265,12 @@ input:-webkit-autofill {
 .book-icon {
   margin-top: 3em;
   margin-bottom: -11em;
+  width: 120px;
+}
+
+.camera-icon {
+  margin-top: 0em;
+  margin-bottom: -5.5em;
   width: 120px;
 }
 
@@ -338,7 +344,7 @@ em {background: none;}
 }
 
 @media (max-width: 1099px) {
-.contact-icon, .about-icon, .book-icon, .media-icon {
+.contact-icon, .about-icon, .book-icon, .media-icon, .camera-icon {
   display: none;
   }
 }
@@ -356,10 +362,6 @@ em {background: none;}
 }
 
 @media (min-width: 1200px) {
-
-  .banner {
-    /* background-image: url('./Assets/Banner.png');  */
-  }
 
   .contact-form-card {
     display: flex;
