@@ -94,13 +94,13 @@ function App() {
           <em>Andrew Thomas - Iran and the West: A Non-Western Approach to Foreign Policy.</em> Iran1400: Spotlighting an Author Series, March 2024, Streamed over Zoom.
           <br></br>
           <br></br>
-          <iframe className='youtube-vid' src="https://www.youtube.com/embed/oU5aaYNzBuA?si=nHReFh-HkekmIBeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className='youtube-vid' src="https://www.youtube.com/embed/8hCyEeNjI6c?si=CeQKvKWSONZ1i-H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <br></br>
           <br></br>
           Book Launch at the Middle East Studies Forum, April 2024
           <br></br>
           <br></br>
-          <iframe className='youtube-vid' src="https://www.youtube.com/embed/8hCyEeNjI6c?si=CeQKvKWSONZ1i-H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className='youtube-vid' src="https://www.youtube.com/embed/oU5aaYNzBuA?si=nHReFh-HkekmIBeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <br></br>
           <br></br>
           News Bulletins:
